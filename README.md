@@ -36,18 +36,18 @@ Level 5: 200/100ms (VERY FAST!)
 
 🔌 Circuit Diagram
 
-ESP32    →    Components
-GPIO4    →    LED0 (+ thru 220Ω → GND)
-GPIO5    →    LED1 (+ thru 220Ω → GND)  
-GPIO18   →    LED2 (+ thru 220Ω → GND)
-GPIO19   →    LED3 (+ thru 220Ω → GND)
-GPIO12   →    Button0 (other side → GND)
-GPIO13   →    Button1 (other side → GND)
-GPIO14   →    Button2 (other side → GND)
-GPIO15   →    Button3 (other side → GND)
-GPIO2    →    Buzzer (+) , Buzzer (-) → GND
-3.3V     →    (optional power for buttons)
-GND      →    Common ground
+| ESP32 Pin | Component | Connection |
+|-----------|-----------|------------|
+| GPIO4 | LED 0 | → LED+ → 220Ω → GND |
+| GPIO5 | LED 1 | → LED+ → 220Ω → GND |
+| GPIO18 | LED 2 | → LED+ → 220Ω → GND |
+| GPIO19 | LED 3 | → LED+ → 220Ω → GND |
+| GPIO12 | Button 0 | → Button → GND |
+| GPIO13 | Button 1 | → Button → GND |
+| GPIO14 | Button 2 | → Button → GND |
+| GPIO15 | Button 3 | → Button → GND |
+| GPIO2 | Buzzer | → Buzzer+ , Buzzer- → GND |
+| GND | Common | All grounds together |
 
 🎵 Sound Effects
 
